@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Login from './Login'
 
 function Home() {
     return (
@@ -9,7 +8,7 @@ function Home() {
                 hi, i am home page
             </h1>
 
-            <Link className='text-warning  h4' to={"/login"}>
+            <Link className=' btn btn-warning  h4' to={"/login"}>
                 Let's connect
             </Link>
         </div>
